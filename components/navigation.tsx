@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#d2cebc] text-[#3b3b3b] p-4  w-full">
+    <nav className="bg-[#d2cebc] text-[#3b3b3b] p-4 w-full sticky top-0 z-50">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="text-2xl font-bold">
           <Link href="/" className="hover:underline">
