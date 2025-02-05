@@ -6,7 +6,7 @@ const AboutPage = () => {
     <div className="container mx-auto p-8">
       <HeroBanner 
         title="A Little About Me" 
-        description="I live in Weymouth, MA with my amazing fiancee, Abby and her surly cat Big Lady. We're getting married soon!"
+        longDesc="I live in Weymouth, MA with my amazing fiancee, Abby and her surly cat Big Lady. We're getting married soon!"
       />
     </div>
   );
