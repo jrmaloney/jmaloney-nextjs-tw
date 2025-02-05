@@ -1,11 +1,13 @@
 import React from 'react';
+import HeroBanner from '@/components/hero';
 
 const CodePage = () => {
   return (
-    <div>
-      <main className="container mx-auto p-4">
-        <h1 className="text-4xl font-bold text-center mt-10">My Code Page</h1>
-      </main>
+    <div className="container mx-auto p-8">
+      <HeroBanner 
+        title="Code Runbooks and Recipes" 
+        description="Below you'll find some descriptions and links to step-by-step guides for provision infrastructure resources and building databases using Terraform and Liquibase respectively. "
+      />
     </div>
   );
 };
