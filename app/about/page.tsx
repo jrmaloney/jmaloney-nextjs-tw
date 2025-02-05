@@ -4,7 +4,6 @@ import Navbar from '@/components/navigation';
 const AboutPage = () => {
   return (
     <div>
-      <Navbar />
       <main className="container mx-auto p-4">
         <h1 className="text-4xl font-bold text-center mt-10">My About Page</h1>
       </main>
