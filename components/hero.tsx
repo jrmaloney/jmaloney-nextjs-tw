@@ -1,6 +1,11 @@
 import React from "react";
 
-const HeroBanner = ({ title, description }) => {
+interface HeroBannerProps {
+    title: string;
+    description: string;
+  }
+
+  const HeroBanner: React.FC<HeroBannerProps> = ({ title, description }) => {
   return (
     <section className=" py-4 px-8 text-left ">
       <div className="max-w-3xl">
