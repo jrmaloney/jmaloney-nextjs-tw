@@ -70,14 +70,14 @@ const Resume = () => {
           <div className="print-page-break"></div>
           <h4 className="text-lg font-semibold mt-4">VP, Technology Leader | 04/2017 – 04/2023</h4>
           <ul className="list-disc pl-5">
-            <li>Led <strong>digital development</strong> and <strong>product ownership</strong> for <strong>BVI Medical</strong>:</li>
+            <li>Led <strong>digital development</strong> and <strong>product ownership</strong> for BVI Medical:</li>
             <ul className="list-disc pl-10">
-              <li>Secured a <strong>$1M recurring annual engagement</strong> and delivered an <strong>internationalized (i18n), MM+M award-winning ophthalmic surgical pack configurator</strong>.</li>
+              <li>Secured a <strong>$1M recurring annual engagement</strong> and delivered an <strong>internationalized (i18n), MM+M award-winning</strong> ophthalmic surgical pack configurator.</li>
               <li>Developed <strong>custom Salesforce/IFS-integrated cross-selling applications</strong>.</li>
             </ul>
-            <li>Directed the <strong>digital transformation</strong> team for <strong>MAS Medical Staffing</strong>:</li>
+            <li>Directed the <strong>digital transformation</strong> team for MAS Medical Staffing:</li>
             <ul className="list-disc pl-10">
-              <li>Led development of a <strong>turnkey credentialing portal</strong> and modernized <strong>recruiting operations</strong>.</li>
+              <li><strong>Led development</strong> of a turnkey credentialing portal and modernized recruiting operations.</li>
               <li>Maintained and optimized <strong>legacy shift booking and time tracking systems</strong>.</li>
             </ul>
             <li>Managed <strong>project estimates, SOWs,</strong> and <strong>budget tracking</strong> to ensure <strong>delivery within scope</strong>.</li>
@@ -89,18 +89,18 @@ const Resume = () => {
           <h4 className="text-lg font-semibold">Director, Technology and Development | 03/2013 – 04/2017</h4>
           <ul className="list-disc pl-5">
             <li>Managed a <strong>$2M–$4M annual technical scope</strong> for <strong>MINI USA</strong>.</li>
-            <li>Led <strong>MarTech integrations</strong> across <strong>BMW enterprise</strong> and <strong>third-party platforms</strong>.</li>
-            <li>Directed the <strong>technical roadmap</strong> for MINI’s flagship site, <strong>miniusa.com</strong>.</li>
-            <li>Advocated for MINI’s <strong>technology needs</strong> with <strong>BMW Corporate IT</strong> and <strong>vendor partners</strong>.</li>
-            <li>Developed an <strong>A/B testing program</strong> to optimize <strong>user engagement</strong>.</li>
+            <li>Led <strong>MarTech integrations</strong> across BMW enterprise and third-party platforms.</li>
+            <li><strong>Directed the technical roadmap</strong> for MINI’s flagship site, <strong>miniusa.com</strong>.</li>
+            <li><strong>Advocated for technology needs</strong> on behalf of MINI USA with BMW Corporate IT and vendor partners.</li>
+            <li>Developed an <strong>A/B testing program</strong> to <strong>optimize user engagement</strong>.</li>
           </ul>
 
           <h4 className="text-lg font-semibold mt-4">Senior Software Engineer | 09/2006 – 03/2013</h4>
           <ul className="list-disc pl-5">
             <li>Co-led the <strong>migration of miniusa.com to Adobe AEM</strong>.</li>
-            <li>Led development on the first <strong>adaptive experience design</strong> on miniusa.com.</li>
-            <li>Built an <strong>OEM and dealership event platform</strong> to drive <strong>lead generation</strong>.</li>
-            <li>Developed m.miniusa.com, the initial <strong>handheld device solution</strong> for MINI USA.</li>
+            <li>Led development on the first <strong>adaptive design</strong> of miniusa.com.</li>
+            <li>Built an <strong>OEM and dealership event platform</strong> to <strong>drive lead generation</strong>.</li>
+            <li>Developed m.miniusa.com, the <strong>first handheld device solution</strong> for MINI USA.</li>
             <li>Implemented <strong>SOAP-based web services</strong> for <strong>lead processing automation</strong>.</li>
           </ul>
         </div>
@@ -123,9 +123,9 @@ const Resume = () => {
           <h3 className="text-xl font-bold">EZE CASTLE SOFTWARE – Boston, MA</h3>
           <h4 className="text-lg font-semibold">Software Engineer – Team Lead | 04/2000 – 06/2004</h4>
           <ul className="list-disc pl-5">
-            <li>Designed the <strong>core business model</strong> for a <strong>trade order management system</strong>.</li>
-            <li>Built <strong>FX trading</strong> and <strong>exposure monitoring solutions</strong>.</li>
-            <li>Developed a <strong>bond calculation engine</strong> based on <strong>SIA standards</strong>.</li>
+            <li>Designed the core business model for a trade order management system.</li>
+            <li>Built FX trading and exposure monitoring solutions.</li>
+            <li>Developed a bond calculation engine based on SIA standards.</li>
           </ul>
         </div>
         {/*
