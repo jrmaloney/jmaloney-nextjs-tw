@@ -5,7 +5,7 @@ const Resume = () => {
     <div className="p-8 max-w-4xl mx-auto">
       <h1 className="text-4xl font-bold mb-4">John R. Maloney</h1>
       <p className="text-lg mb-2">
-        <strong>Weymouth, MA</strong> | <a href="mailto:john@jmaloney.net" target="_blank" className="text-blue-500">john@jmaloney.net</a> | <strong>617.694.9413</strong> | <a href="https://www.linkedin.com/in/john-r-maloney" target="_blank" className="text-blue-500">LinkedIn Profile</a> | <a href="https://jmaloney.net" target="_blank" className="text-blue-500">Personal Website</a> | <a href="https://github.com/jrmaloney" target="_blank" className="text-blue-500">GitHub</a>
+        <strong>Weymouth, MA</strong> | <a href="mailto:john@jmaloney.net" target="_blank" className="text-blue-500">john@jmaloney.net</a> | <strong>617.694.9413</strong> | <a href="https://www.linkedin.com/in/john-r-maloney" target="_blank" className="text-blue-500">LinkedIn</a> | <a href="https://jmaloney.net" target="_blank" className="text-blue-500">Website</a> | <a href="https://github.com/jrmaloney" target="_blank" className="text-blue-500">GitHub</a>
       </p>
 
       <section className="mb-6">
@@ -24,13 +24,13 @@ const Resume = () => {
           <ul className="list-disc pl-5">
             <li><strong>Architectural Review Board (ARB) member</strong> leading <strong>Cloud & Infrastructure decisions and governance</strong>.</li>
             <li>Oversaw the <strong>management of 30+ hosted sites</strong> across <strong>Rackspace, Azure, and AWS</strong>, ensuring <strong>security, scalability, and cost efficiency</strong>.</li>
-            <li>Led a <strong>15-member development team</strong>, including full-time and freelance engineers.</li>
             <li>Led an initiative to transition all resource provisioning and management to an <strong>Infrastructure as Code (IaC) model</strong>, improving <strong>deployment consistency and scalability</strong>.</li>
+            <li><strong>Architected digital solutions</strong> across various verticals and application stacks.</li>
+            <li>Led a <strong>15-member development team</strong>, including full-time and freelance engineers.</li>
             <li>Collaborated with <strong>Program Management</strong> to refine <strong>digital delivery models</strong>.</li>
             <li>Oversaw <strong>resource allocation, budgeting, and project profitability</strong>.</li>
             <li>Conducted project <strong>retrospectives</strong> to enhance <strong>development processes and team performance</strong>.</li>
             <li>Spearheaded <strong>new scopes of work</strong> within strategic client accounts.</li>
-            <li><strong>Architected digital solutions</strong> across various verticals and application stacks.</li>
           </ul>
 
           <h4 className="text-lg font-semibold mt-4">VP, Technology Leader | 04/2017 – 04/2023</h4>
@@ -38,9 +38,9 @@ const Resume = () => {
             <li>Led <strong>digital development</strong> and <strong>product ownership</strong> for <strong>BVI Medical</strong>:</li>
             <ul className="list-disc pl-10">
               <li>Secured a <strong>$1M recurring annual engagement</strong> and delivered an <strong>internationalized (i18n), MM+M award-winning ophthalmic surgical pack configurator</strong>.</li>
-              <li>Developed <strong>custom SFDC/IFS-integrated cross-selling applications</strong>.</li>
+              <li>Developed <strong>custom Salesforce/IFS-integrated cross-selling applications</strong>.</li>
             </ul>
-            <li>Directed <strong>digital transformation</strong> for <strong>MAS Medical Staffing</strong>:</li>
+            <li>Directed the <strong>digital transformation</strong> team for <strong>MAS Medical Staffing</strong>:</li>
             <ul className="list-disc pl-10">
               <li>Led development of a <strong>turnkey credentialing portal</strong> and modernized <strong>recruiting operations</strong>.</li>
               <li>Maintained and optimized <strong>legacy shift booking and time tracking systems</strong>.</li>
@@ -63,9 +63,10 @@ const Resume = () => {
           <h4 className="text-lg font-semibold mt-4">Senior Software Engineer | 09/2006 – 03/2013</h4>
           <ul className="list-disc pl-5">
             <li>Co-led the <strong>migration of miniusa.com to Adobe AEM</strong>.</li>
-            <li>Designed a <strong>single adaptive experience</strong> across <strong>desktop, tablet, and mobile</strong>.</li>
+            <li>Led development on the first <strong>adaptive experience design</strong> on miniusa.com.</li>
             <li>Built an <strong>OEM and dealership event platform</strong> to drive <strong>lead generation</strong>.</li>
-            <li>Developed <strong>SOAP-based web services</strong> for <strong>lead processing automation</strong>.</li>
+            <li>Developed m.miniusa.com, the initial <strong>handheld device solution</strong> for MINI USA.</li>
+            <li>Implemented <strong>SOAP-based web services</strong> for <strong>lead processing automation</strong>.</li>
           </ul>
         </div>
 
@@ -92,7 +93,7 @@ const Resume = () => {
             <li>Developed a <strong>bond calculation engine</strong> based on <strong>SIA standards</strong>.</li>
           </ul>
         </div>
-
+        {/*
         <div className="mb-4">
           <h3 className="text-xl font-bold">DELTA GLOBAL TRADING LP – Boston, MA</h3>
           <h4 className="text-lg font-semibold">Manager of Operations and Currency Trading | 06/1997 – 03/2000</h4>
@@ -102,14 +103,16 @@ const Resume = () => {
             <li>Provided <strong>counterparty exposure analysis</strong> and <strong>cash flow projections</strong>.</li>
           </ul>
         </div>
+        */}
       </section>
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Technical Skills & Tools</h2>
+        <p className="pb-2">A mix of <strong>hands-on experience</strong> and <strong>leadership</strong> in the following technologies:</p>
         <ul className="list-disc pl-5">
           <li><strong>Cloud & Infrastructure:</strong> Azure (SQL DB, SWA, AKS, VM), AWS (RDS, EC2, S3), Rackspace, Cloudflare</li>
           <li><strong>Languages, Libraries & Frameworks:</strong> SQL, Java, JavaScript, TypeScript, React, Next.js, Node.js</li>
-          <li><strong>Digital Experience Platforms:</strong> Adobe AEM Sites, Acquia/Drupal</li>
+          <li><strong>Digital Experience Platforms:</strong> Adobe AEM, Acquia/Drupal, Sitecore, Kentico, WordPress</li>
           <li><strong>CRM & ERP:</strong> Salesforce Sales Cloud (SFDC), Bullhorn, IFS</li>
           <li><strong>SDLC, DevOps & IaC:</strong> Terraform, Terraform Cloud, Docker, Kubernetes, GitHub, GitLab, Azure DevOps, Jira, Grafana K6</li>
           <li><strong>Databases & Tools:</strong> PostgreSQL, SQL Server, Oracle, MongoDB, Liquibase</li>
