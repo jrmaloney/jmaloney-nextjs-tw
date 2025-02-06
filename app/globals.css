@@ -1,2 +1,55 @@
 @import "tailwindcss";
 
+@media print {
+  body {
+    font-family: "Roboto", serif; /* Adjust font family as needed */
+    font-size: 12pt;               /* Base font size */
+    color: black;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+  }
+  /* Reduce H1 and H2 font sizes for print */
+  h1 {
+    font-size: 18pt !important;    /* Decrease from default screen size */
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  h2 {
+    font-size: 14pt !important;    /* Slightly smaller than H1 */
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  h3 {
+    font-size: 14pt !important;    /* Slightly smaller than H1 */
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  h4 {
+    font-size: 13pt !important;    /* Slightly smaller than H1 */
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  /* Optional: adjust paragraph spacing for compactness */
+  p {
+    margin-bottom: 4px;
+  }
+  /* Hide elements not needed in print */
+  .no-print {
+    display: none !important;
+  }
+  nav, footer {
+    display: none !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-container {
+    padding: 0 0.5in;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .print-page-break {
+    page-break-after: always;
+  }
+}
