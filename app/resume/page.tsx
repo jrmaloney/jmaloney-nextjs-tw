@@ -1,12 +1,34 @@
 "use client";
 import React from "react";
 
+
+// Download Button Component
+const DownloadPDFButton = () => {
+    const handleDownload = () => {
+      const link = document.createElement("a");
+      link.href = "/John_Maloney_Resume.pdf"; // Path to the PDF
+      link.download = "John_Maloney_Resume.pdf"; // Downloaded filename
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    };
+    return (
+        <button
+          onClick={handleDownload}
+          className="mt-4 px-4 py-2 bg-[#d2cebc] text-[#3b3b3b] font-bold rounded no-print 
+                     hover:bg-[#bfb8a4] hover:text-black cursor-pointer transition duration-300"
+        >
+          Download PDF
+        </button>
+      );
+    };
+
 const Resume = () => {
   return (
     <div className="p-8 max-w-4xl mx-auto">
         <div className="flex justify-between mt-4 no-print">
             <button onClick={() => window.print()} className="mt-4 px-4 py-2 bg-[#d2cebc] text-[#3b3b3b] font-bold rounded no-print hover:bg-[#bfb8a4] hover:text-black cursor-pointer transition duration-300">Print Resume</button>
-            <button onClick={() => window.print()} className="mt-4 px-4 py-2 bg-[#d2cebc] text-[#3b3b3b] font-bold rounded no-print hover:bg-[#bfb8a4] hover:text-black cursor-pointer transition duration-300">PDF Download</button>
+            <DownloadPDFButton />
         </div>
       
       <h1 className="text-4xl font-bold mb-4 text-center">John R. Maloney</h1>
@@ -16,7 +38,7 @@ const Resume = () => {
       <p className="text-lg mb-2 text-center" >
         <a href="https://www.linkedin.com/in/john-r-maloney" target="_blank" className="text-blue-500">LinkedIn</a> | <a href="https://jmaloney.net" target="_blank" className="text-blue-500">Website</a> | <a href="https://github.com/jrmaloney" target="_blank" className="text-blue-500">GitHub</a>
       </p>
-      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-6"></div>
+      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Summary</h2>
@@ -24,7 +46,7 @@ const Resume = () => {
           <strong>Enterprise Architect</strong> and seasoned <strong>digital development leader</strong> with a track record of delivering <strong>innovative digital experiences</strong> and driving <strong>enterprise digital transformation</strong>. Experienced in <strong>Agile methodologies</strong>, adept at aligning <strong>business strategy with technology</strong>, leading <strong>cross-functional teams</strong>, and optimizing <strong>SDLC processes</strong> for <strong>scalable, high-impact solutions</strong>. Early career experience in <strong>financial, compliance, and regulatory auditing</strong> provides a strong foundation for <strong>risk management and governance</strong> in digital initiatives.
         </p>
       </section>
-      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-6"></div>
+      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Professional Experience</h2>
@@ -87,15 +109,16 @@ const Resume = () => {
           <h3 className="text-xl font-bold">EVENTMONITOR – Boston, MA</h3>
           <h4 className="text-lg font-semibold">Director of Client Services | 07/2004 – 06/2006</h4>
           <ul className="list-disc pl-5">
-            <li><strong>Led discovery and definition phases</strong> of enhancement projects, aligning with client goals.</li>
-            <li>Managed <strong>$2M+ SaaS applications</strong>, boosting <strong>engagement and retention</strong>.</li>
-            <li>Acted as liaison between clients and engineers, <strong>translating business needs into solutions</strong>.</li>
-            <li><strong>Implemented issue tracking systems</strong>, enhancing transparency and resolution speed.</li>
-            <li>Promoted content-style decoupling for <strong>scalable white-label deployments</strong>.</li>
-            <li><strong>Implemented SDLC best practices, automated testing, and CI/CD</strong> with Apache Ant.</li>
+          <li>Managed <strong>$2M+ SaaS applications</strong>, boosting <strong>engagement and retention</strong>.</li>
+            <li>Led <strong>discover and define</strong> phases of enhancement projects, <strong>translating business needs into solutions</strong>.</li>
+            <li>Directed technology implementations and <strong>client training</strong>.</li>
+            <li>Deployed a service management system which <strong>improved SLA response times</strong>.</li>
+            <li>Implemented <strong>automated regression testing</strong>, reducing deployment errors and accelerating release cycles.</li>
           </ul>
         </div>
 
+          {/* Page Break for Print Version*/}
+          <div className="print-page-break"></div>
         <div className="mb-4">
           <h3 className="text-xl font-bold">EZE CASTLE SOFTWARE – Boston, MA</h3>
           <h4 className="text-lg font-semibold">Software Engineer – Team Lead | 04/2000 – 06/2004</h4>
@@ -117,7 +140,7 @@ const Resume = () => {
         </div>
         */}
       </section>
-      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-6"></div>
+      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Technical Skills & Tools</h2>
@@ -132,7 +155,7 @@ const Resume = () => {
           <li><strong>Collaboration & Design:</strong> Figma, Miro, Confluence, Notion</li>
         </ul>
       </section>
-      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-6"></div>
+      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Industry Experience</h2>
@@ -142,16 +165,16 @@ const Resume = () => {
           <li><strong>Finance & Enterprise:</strong> Nationwide, Transamerica, AMG, Wellington Management, MINI FS</li>
         </ul>
       </section>
-      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-6"></div>
+      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Education</h2>
         <div className="flex justify-between">
         <p><strong>BSBA with Honors in Accounting</strong></p>
-        <p><strong>Slippery Rock University</strong> – Slippery Rock, PA</p>
+        <p>Slippery Rock University</p>
         </div>
       </section>
-      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-6"></div>
+      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Awards & Recognitions</h2>
