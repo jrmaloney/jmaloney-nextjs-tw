@@ -5,8 +5,8 @@ const Resume = () => {
   return (
     <div className="p-8 max-w-4xl mx-auto">
         <div className="flex justify-between mt-4 no-print">
-            <button onClick={() => window.print()} className="mt-4 px-4 py-2 bg-[#d2cebc] text-[#3b3b3b] font-bold rounded no-print">Print Resume</button>
-            <button onClick={() => window.print()} className="mt-4 px-4 py-2 bg-[#d2cebc] text-[#3b3b3b] font-bold rounded no-print">PDF Download</button>
+            <button onClick={() => window.print()} className="mt-4 px-4 py-2 bg-[#d2cebc] text-[#3b3b3b] font-bold rounded no-print hover:bg-[#bfb8a4] hover:text-black cursor-pointer transition duration-300">Print Resume</button>
+            <button onClick={() => window.print()} className="mt-4 px-4 py-2 bg-[#d2cebc] text-[#3b3b3b] font-bold rounded no-print hover:bg-[#bfb8a4] hover:text-black cursor-pointer transition duration-300">PDF Download</button>
         </div>
       
       <h1 className="text-4xl font-bold mb-4 text-center">John R. Maloney</h1>
@@ -87,13 +87,12 @@ const Resume = () => {
           <h3 className="text-xl font-bold">EVENTMONITOR – Boston, MA</h3>
           <h4 className="text-lg font-semibold">Director of Client Services | 07/2004 – 06/2006</h4>
           <ul className="list-disc pl-5">
-            <li>Led the <strong>discover and define phases</strong> for all <strong>bespoke enhancement projects</strong>, ensuring alignment with <strong>client needs</strong> and <strong>business objectives</strong>.</li>
-            <li>Managed <strong>$2M+ recurring revenue</strong> SaaS applications, driving <strong>client engagement and retention</strong>.</li>
-            <li>Acted as the <strong>liaison between clients and engineering teams</strong>, translating <strong>business requirements</strong> into <strong>technical solutions</strong>.</li>
-            <li>Spearheaded the <strong>implementation and training</strong> of new <strong>technology solutions</strong> for <strong>internal and client-facing applications</strong>.</li>
-            <li>Developed an <strong>internal and client-facing issue tracking system</strong>, improving <strong>transparency</strong> and <strong>resolution times</strong>.</li>
-            <li>Advocated <strong>internal markup policies</strong> to decouple <strong>content and style</strong>, enabling <strong>white-label initiatives</strong> for <strong>scalable deployments</strong>.</li>
-            <li>Implemented <strong>SDLC best practices</strong>, <strong>automated testing</strong>, and early <strong>CI/CD automation</strong> using <strong>Apache Ant deployment</strong>.</li>
+            <li><strong>Led discovery and definition phases</strong> of enhancement projects, aligning with client goals.</li>
+            <li>Managed <strong>$2M+ SaaS applications</strong>, boosting <strong>engagement and retention</strong>.</li>
+            <li>Acted as liaison between clients and engineers, <strong>translating business needs into solutions</strong>.</li>
+            <li><strong>Implemented issue tracking systems</strong>, enhancing transparency and resolution speed.</li>
+            <li>Promoted content-style decoupling for <strong>scalable white-label deployments</strong>.</li>
+            <li><strong>Implemented SDLC best practices, automated testing, and CI/CD</strong> with Apache Ant.</li>
           </ul>
         </div>
 
