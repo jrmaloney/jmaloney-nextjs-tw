@@ -27,7 +27,7 @@ const Resume = () => {
   return (
     <div className="p-8 max-w-4xl mx-auto">
         <div className="flex justify-between mt-4 no-print mb-8">
-            <button onClick={() => window.print()} className="mt-4 px-4 py-2 bg-[#d2cebc] text-[#3b3b3b] font-bold rounded no-print hover:bg-[#bfb8a4] hover:text-black cursor-pointer transition duration-300 hidden sm:inline-block">Print Resume</button>
+            <button onClick={() => window.print()} className="mt-4 px-4 py-2 bg-[#d2cebc] text-[#3b3b3b] font-bold rounded no-print hover:bg-[#bfb8a4] hover:text-black cursor-pointer transition duration-300 hidden md:inline-block">Print Resume</button>
             <DownloadPDFButton />
         </div>
 
