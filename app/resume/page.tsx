@@ -148,8 +148,8 @@ const Resume = () => {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Education</h2>
         <div className="flex justify-between">
-            <p><strong>Slippery Rock University</strong> – Slippery Rock, PA</p>
-            <p><strong>BSBA with Honors in Accounting</strong></p>
+        <p><strong>BSBA with Honors in Accounting</strong></p>
+        <p><strong>Slippery Rock University</strong> – Slippery Rock, PA</p>
         </div>
       </section>
       <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-6"></div>
