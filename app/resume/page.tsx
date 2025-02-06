@@ -1,34 +1,13 @@
 "use client";
 import React from "react";
-
-
-// Download Button Component
-const DownloadPDFButton = () => {
-    const handleDownload = () => {
-      const link = document.createElement("a");
-      link.href = "/John_Maloney_Resume.pdf"; // Path to the PDF
-      link.download = "John_Maloney_Resume.pdf"; // Downloaded filename
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    };
-    return (
-        <button
-          onClick={handleDownload}
-          className="mt-4 px-4 py-2 bg-[#d2cebc] text-[#3b3b3b] font-bold rounded no-print 
-                     hover:bg-[#bfb8a4] hover:text-black cursor-pointer transition duration-300"
-        >
-          Download PDF
-        </button>
-      );
-    };
+import DownloadButton from "@/components/DownloadButton";
 
 const Resume = () => {
   return (
     <div className="p-8 max-w-4xl mx-auto">
         <div className="flex justify-between mt-4 no-print mb-8">
             <button onClick={() => window.print()} className="mt-4 px-4 py-2 bg-[#d2cebc] text-[#3b3b3b] font-bold rounded no-print hover:bg-[#bfb8a4] hover:text-black cursor-pointer transition duration-300 hidden md:inline-block">Print Resume</button>
-            <DownloadPDFButton />
+            <DownloadButton buttonLabel="Download PDF" href="/files/John_Maloney_Resume.pdf" downloadName="John_Maloney_Resume.pdf"/>
         </div>
 
       <h1 className="text-4xl font-bold mb-4 text-center">John R. Maloney</h1>

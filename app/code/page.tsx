@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroBanner from '@/components/hero';
+import HeroBanner from '@/components/HeroBanner';
 
 const CodePage = () => {
   return (
