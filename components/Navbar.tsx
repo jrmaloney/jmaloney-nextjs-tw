@@ -39,6 +39,9 @@ const Navbar: React.FC = () => {
               <Link href="/music" onClick={handleLinkClick}>
                 <span className="block px-4 py-2 hover:bg-gray-300">Music</span>
               </Link>
+              <Link href="/resume" onClick={handleLinkClick}>
+                <span className="block px-4 py-2 hover:bg-gray-300">Resume</span>
+              </Link>
             </div>
           )}
         </div>
@@ -51,6 +54,9 @@ const Navbar: React.FC = () => {
           </Link>
           <Link href="/music">
             <span className="hover:underline">Music</span>
+          </Link>
+          <Link href="/resume">
+            <span className="hover:underline">Resume</span>
           </Link>
         </div>
       </div>
