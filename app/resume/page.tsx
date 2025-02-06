@@ -41,7 +41,7 @@ const Resume = () => {
             <li>Led a <strong>15-member development team</strong>, including full-time and freelance engineers.</li>
             <li>Collaborated with <strong>Program Management</strong> to refine <strong>digital delivery models</strong>.</li>
             <li>Oversaw <strong>resource allocation, budgeting, and project profitability</strong>.</li>
-            <li>Conducted project <strong>retrospectives</strong> to enhance <strong>development processes and team performance</strong>.</li>
+            <li>Conducted <strong>project retrospectives</strong> to enhance <strong>development processes and team performance</strong>.</li>
             <li>Spearheaded <strong>new scopes of work</strong> within strategic client accounts.</li>
           </ul>
 
@@ -56,10 +56,10 @@ const Resume = () => {
             </ul>
             <li>Directed the <strong>digital transformation</strong> team for MAS Medical Staffing:</li>
             <ul className="list-disc pl-10">
-              <li><strong>Led development</strong> of a turnkey credentialing portal and modernized recruiting operations.</li>
-              <li>Maintained and optimized <strong>legacy shift booking and time tracking systems</strong>.</li>
+              <li><strong>Led development</strong> of a turnkey credentialing portal, <strong>driving more streamlined recruiting operations.</strong></li>
+              <li>Maintained and optimized legacy shift booking and time tracking systems.</li>
             </ul>
-            <li>Managed <strong>project estimates, SOWs,</strong> and <strong>budget tracking</strong> to ensure <strong>delivery within scope</strong>.</li>
+            <li>Oversaw project estimates, SOWs, and budgets to <strong>ensure on-time, on-budget delivery</strong>.</li>
           </ul>
         </div>
 
@@ -69,8 +69,8 @@ const Resume = () => {
           <ul className="list-disc pl-5">
             <li>Managed a <strong>$2M–$4M annual technical scope</strong> for <strong>MINI USA</strong>.</li>
             <li>Led <strong>MarTech integrations</strong> across BMW enterprise and third-party platforms.</li>
-            <li><strong>Directed the technical roadmap</strong> for MINI’s flagship site, <strong>miniusa.com</strong>.</li>
-            <li><strong>Advocated for technology needs</strong> on behalf of MINI USA with BMW Corporate IT and vendor partners.</li>
+            <li><strong>Orchestrated the technical roadmap</strong> for MINI’s flagship site, <strong>miniusa.com</strong>.</li>
+            <li><strong>Advocated MINI USA’s technology needs</strong> with BMW Corporate IT and vendor partners.</li>
             <li>Developed an <strong>A/B testing program</strong> to <strong>optimize user engagement</strong>.</li>
           </ul>
 
@@ -91,8 +91,8 @@ const Resume = () => {
           <li>Managed <strong>$2M+ SaaS applications</strong>, boosting <strong>engagement and retention</strong>.</li>
             <li>Led <strong>discover and define</strong> phases of enhancement projects, <strong>translating business needs into solutions</strong>.</li>
             <li>Directed technology implementations and <strong>client training</strong>.</li>
-            <li>Deployed a service management system which <strong>improved SLA response times</strong>.</li>
-            <li>Implemented <strong>automated regression testing</strong>, reducing deployment errors and accelerating release cycles.</li>
+            <li>Implemented a service management system and workflow which <strong>improved SLA response times</strong>.</li>
+            <li>Developed <strong>automated regression testing</strong>, reducing deployment errors and accelerating release cycles.</li>
           </ul>
         </div>
 
@@ -102,9 +102,9 @@ const Resume = () => {
           <h3 className="text-xl font-bold">EZE CASTLE SOFTWARE – Boston, MA</h3>
           <h4 className="text-lg font-semibold">Software Engineer – Team Lead | 04/2000 – 06/2004</h4>
           <ul className="list-disc pl-5">
-            <li>Designed the core business model for a trade order management system.</li>
-            <li>Built FX trading and exposure monitoring solutions.</li>
-            <li>Developed a bond calculation engine based on SIA standards.</li>
+            <li><strong>Designed a core business model</strong> for a trade order management system.</li>
+            <li>Built <strong>FX trading and exposure monitoring</strong> solutions.</li>
+            <li><strong>Developed a bond calculation libary</strong> based on SIA standards.</li>
           </ul>
         </div>
         {/*
@@ -129,7 +129,7 @@ const Resume = () => {
           <li><strong>Languages, Libraries & Frameworks:</strong> SQL, Java, JavaScript, TypeScript, React, Next.js, Node.js</li>
           <li><strong>Digital Experience Platforms:</strong> Adobe AEM, Acquia/Drupal, Sitecore, Kentico, WordPress</li>
           <li><strong>CRM & ERP:</strong> Salesforce Sales Cloud (SFDC), Bullhorn, IFS</li>
-          <li><strong>SDLC, DevOps & IaC:</strong> Terraform, Terraform Cloud, Docker, Kubernetes, GitHub, GitLab, Azure DevOps, Jira, Grafana K6</li>
+          <li><strong>SDLC, DevOps & IaC:</strong> Terraform, Terraform Cloud, Docker, Kubernetes, GitHub, GitLab, Azure DevOps, Jira, Grafana k6</li>
           <li><strong>Databases & Tools:</strong> PostgreSQL, SQL Server, Oracle, MongoDB, Liquibase</li>
           <li><strong>Collaboration & Design:</strong> Figma, Miro, Confluence, Notion</li>
         </ul>
@@ -139,9 +139,10 @@ const Resume = () => {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Industry Experience</h2>
         <ul className="list-disc pl-5">
-          <li><strong>Life Sciences & Healthcare:</strong> UM Health-Sparrow, BCBS FEP, Coverys Ins., BVI Medical, MAS Medical Staffing, UCB, CSL Seqirus</li>
-          <li><strong>Automotive & Consumer:</strong> MINI USA, Aruba Tourism Assoc., Land O’ Frost</li>
-          <li><strong>Finance & Enterprise:</strong> Nationwide, Transamerica, AMG, Wellington Management, MINI FS</li>
+          <li><strong>Healthcare:</strong> UM Health-Sparrow, BCBS FEP, Coverys Ins., BVI Medical, MAS Medical Staffing</li>
+          <li><strong>Consumer:</strong> MINI USA, Aruba Tourism Assoc., Land O’ Frost</li>
+          <li><strong>Finance:</strong> Nationwide, Transamerica, AMG, Wellington Management, MINI FS</li>
+          <li><strong>Life Sciences:</strong> UCB, Supernus, CSL Seqirus</li>
         </ul>
       </section>
       <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
