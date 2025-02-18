@@ -17,7 +17,6 @@ const MusicPage = () => {
           "https://bandcamp.com/EmbeddedPlayer/album=860763317/size=small/bgcol=ffffff/linkcol=0687f5/track=2408201347/transparent=true/",
           "https://bandcamp.com/EmbeddedPlayer/album=860763317/size=small/bgcol=ffffff/linkcol=0687f5/track=772562278/transparent=true/",
           "https://bandcamp.com/EmbeddedPlayer/album=3403611865/size=small/bgcol=ffffff/linkcol=0687f5/track=2764066335/transparent=true/",
-          "https://bandcamp.com/EmbeddedPlayer/album=3403611865/size=small/bgcol=ffffff/linkcol=0687f5/track=1018830381/transparent=true/",
           "https://bandcamp.com/EmbeddedPlayer/album=3403611865/size=small/bgcol=ffffff/linkcol=0687f5/track=672254152/transparent=true/",
           "https://bandcamp.com/EmbeddedPlayer/album=2475938613/size=small/bgcol=ffffff/linkcol=0687f5/track=2071646682/transparent=true/",
           "https://bandcamp.com/EmbeddedPlayer/album=2475938613/size=small/bgcol=ffffff/linkcol=0687f5/track=4161428038/transparent=true/"
