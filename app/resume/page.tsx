@@ -22,7 +22,7 @@ const Resume = () => {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Summary</h2>
         <p>
-          <strong>Enterprise Architect</strong> and seasoned <strong>digital development leader</strong> with a track record of delivering <strong>innovative digital experiences</strong> and driving <strong>enterprise digital transformation</strong>. Experienced in <strong>Agile methodologies</strong>, adept at aligning <strong>business strategy with technology</strong>, leading <strong>cross-functional teams</strong>, and optimizing <strong>SDLC processes</strong> for <strong>scalable, high-impact solutions</strong>. Early career experience in <strong>financial, compliance, and regulatory auditing</strong> provides a strong foundation for <strong>risk management and governance</strong> in digital initiatives.
+          <strong>Enterprise Architect</strong> and seasoned <strong>digital development leader</strong> with a track record of delivering innovative digital experiences and driving <strong>enterprise digital transformation</strong>. Experienced in <strong>Agile methodologies</strong>, adept at aligning <strong>business strategy with technology</strong>, leading <strong>cross-functional teams</strong>, and optimizing SDLC processes for scalable, high-impact solutions. Early career experience in financial, compliance, and regulatory auditing provides a strong foundation for <strong>risk management and governance</strong> in digital initiatives.
         </p>
       </section>
       <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
@@ -34,32 +34,32 @@ const Resume = () => {
           <h3 className="text-xl font-bold">MERGE – Boston, MA</h3>
           <h4 className="text-lg font-semibold">SVP, Group Technology Leader | 04/2023 – 01/2025</h4>
           <ul className="list-disc pl-5">
-            <li><strong>Architectural Review Board (ARB) member</strong> leading <strong>Cloud & Infrastructure decisions and governance</strong>.</li>
-            <li>Oversaw the <strong>management of 30+ hosted sites</strong> across <strong>Rackspace, Azure, and AWS</strong>, ensuring <strong>security, scalability, and cost efficiency</strong>.</li>
-            <li>Led an initiative to transition all resource provisioning and management to an <strong>Infrastructure as Code (IaC) model</strong>, improving <strong>deployment consistency and scalability</strong>.</li>
-            <li><strong>Architected digital solutions</strong> across various verticals and application stacks.</li>
-            <li>Led a <strong>15-member development team</strong>, including full-time and freelance engineers.</li>
-            <li>Collaborated with <strong>Program Management</strong> to refine <strong>digital delivery models</strong>.</li>
+            <li><strong>Architectural Review Board (ARB) member</strong> leading Cloud & Infrastructure decisions and governance.</li>
+            <li>Oversaw the <strong>management of 30+ hosted sites</strong> across <strong>Rackspace, Azure, and AWS</strong>, ensuring security, scalability, and cost efficiency.</li>
+            <li>Led an initiative to transition all resource provisioning and management to an <strong>Infrastructure as Code (IaC)</strong> model, improving <strong>deployment consistency and scalability</strong>.</li>
+            <li>Architected digital solutions across various verticals and application stacks.</li>
+            <li><strong>Led a 15-member development team</strong>, including full-time and freelance engineers.</li>
+            <li>Collaborated with Program Management to refine digital delivery models.</li>
             <li>Oversaw <strong>resource allocation, budgeting, and project profitability</strong>.</li>
-            <li>Conducted <strong>project retrospectives</strong> to enhance <strong>development processes and team performance</strong>.</li>
-            <li>Spearheaded <strong>new scopes of work</strong> within strategic client accounts.</li>
+            <li>Conducted project retrospectives to enhance <strong>development processes and team performance</strong>.</li>
+            <li>Spearheaded new scopes of work within strategic client accounts.</li>
           </ul>
 
           {/* Page Break for Print Version*/}
           <div className="print-page-break"></div>
           <h4 className="text-lg font-semibold mt-4">VP, Technology Leader | 04/2017 – 04/2023</h4>
           <ul className="list-disc pl-5">
-            <li>Led <strong>digital development</strong> and <strong>product ownership</strong> for BVI Medical:</li>
+            <li>Led digital development and product ownership for BVI Medical:</li>
             <ul className="list-disc pl-10">
               <li>Secured a <strong>$1M recurring annual engagement</strong> and delivered an <strong>internationalized (i18n), MM+M award-winning</strong> ophthalmic surgical pack configurator.</li>
-              <li>Developed <strong>custom Salesforce/IFS-integrated cross-selling applications</strong>.</li>
+              <li>Developed a <strong>custom Salesforce/IFS-integrated</strong> cross-selling application.</li>
             </ul>
-            <li>Directed the <strong>digital transformation</strong> team for MAS Medical Staffing:</li>
+            <li>Directed the digital transformation team for MAS Medical Staffing:</li>
             <ul className="list-disc pl-10">
-              <li><strong>Led development</strong> of a turnkey credentialing portal, <strong>driving more streamlined recruiting operations.</strong></li>
+              <li>Led development of a turnkey credentialing portal, <strong>driving more streamlined recruiting operations.</strong></li>
               <li>Maintained and optimized legacy shift booking and time tracking systems.</li>
             </ul>
-            <li>Oversaw project estimates, SOWs, and budgets to <strong>ensure on-time, on-budget delivery</strong>.</li>
+            <li>Oversaw project estimates, SOWs, and budgets to ensure <strong>on-time, on-budget delivery</strong>.</li>
           </ul>
         </div>
 
@@ -67,20 +67,20 @@ const Resume = () => {
           <h3 className="text-xl font-bold">BEAM INTERACTIVE – Boston, MA</h3>
           <h4 className="text-lg font-semibold">Director, Technology and Development | 03/2013 – 04/2017</h4>
           <ul className="list-disc pl-5">
-            <li>Managed a <strong>$2M–$4M annual technical scope</strong> for <strong>MINI USA</strong>.</li>
+            <li>Managed a $2M–$4M annual technical scope for MINI USA.</li>
             <li>Led <strong>MarTech integrations</strong> across BMW enterprise and third-party platforms.</li>
-            <li><strong>Orchestrated the technical roadmap</strong> for MINI’s flagship site, <strong>miniusa.com</strong>.</li>
-            <li><strong>Advocated MINI USA’s technology needs</strong> with BMW Corporate IT and vendor partners.</li>
+            <li>Orchestrated the <strong>technical roadmap</strong> for MINI’s flagship site, miniusa.com.</li>
+            <li>Advocated MINI USA’s technology needs with BMW Corporate IT and vendor partners.</li>
             <li>Developed an <strong>A/B testing program</strong> to <strong>optimize user engagement</strong>.</li>
           </ul>
 
           <h4 className="text-lg font-semibold mt-4">Senior Software Engineer | 09/2006 – 03/2013</h4>
           <ul className="list-disc pl-5">
-            <li>Co-led the <strong>migration of miniusa.com to Adobe AEM</strong>.</li>
+            <li>Co-led the <strong>platform migration</strong> of miniusa.com to Adobe AEM.</li>
             <li>Led development on the first <strong>adaptive design</strong> of miniusa.com.</li>
-            <li>Built an <strong>OEM and dealership event platform</strong> to <strong>drive lead generation</strong>.</li>
-            <li>Developed m.miniusa.com, the <strong>first handheld device solution</strong> for MINI USA.</li>
-            <li>Implemented <strong>SOAP-based web services</strong> for <strong>lead processing automation</strong>.</li>
+            <li>Built an OEM and dealership event platform to <strong>drive lead generation</strong>.</li>
+            <li>Developed m.miniusa.com, the first handheld device solution for MINI USA.</li>
+            <li>Implemented SOAP-based web services for <strong>lead processing automation</strong>.</li>
           </ul>
         </div>
 
@@ -90,7 +90,7 @@ const Resume = () => {
           <ul className="list-disc pl-5">
           <li>Managed <strong>$2M+ SaaS applications</strong>, boosting <strong>engagement and retention</strong>.</li>
             <li>Led <strong>discover and define</strong> phases of enhancement projects, <strong>translating business needs into solutions</strong>.</li>
-            <li>Directed technology implementations and <strong>client training</strong>.</li>
+            <li>Directed technology implementations and client training.</li>
             <li>Implemented a service management system and workflow which <strong>improved SLA response times</strong>.</li>
             <li>Developed <strong>automated regression testing</strong>, reducing deployment errors and accelerating release cycles.</li>
           </ul>
@@ -102,9 +102,9 @@ const Resume = () => {
           <h3 className="text-xl font-bold">EZE CASTLE SOFTWARE – Boston, MA</h3>
           <h4 className="text-lg font-semibold">Software Engineer – Team Lead | 04/2000 – 06/2004</h4>
           <ul className="list-disc pl-5">
-            <li><strong>Designed a core business model</strong> for a trade order management system.</li>
-            <li>Built <strong>FX trading and exposure monitoring</strong> solutions.</li>
-            <li><strong>Developed a bond calculation libary</strong> based on SIA standards.</li>
+            <li>Designed a core business model for a trade order management system.</li>
+            <li>Built FX trading and exposure monitoring solutions.</li>
+            <li>Developed a bond calculation libary based on SIA standards.</li>
           </ul>
         </div>
         {/*
@@ -125,10 +125,10 @@ const Resume = () => {
         <h2 className="text-2xl font-semibold mb-2">Technical Skills & Tools</h2>
         <p className="pb-2">A mix of <strong>hands-on experience</strong> and <strong>leadership</strong> in the following technologies:</p>
         <ul className="list-disc pl-5">
-          <li><strong>Cloud & Infrastructure:</strong> Azure (SQL DB, SWA, AKS, VM), AWS (RDS, EC2, S3), Rackspace, Cloudflare</li>
-          <li><strong>Languages, Libraries & Frameworks:</strong> SQL, Java, JavaScript, TypeScript, React, Next.js, Node.js</li>
+          <li><strong>Cloud & Infrastructure:</strong> Azure, AWS, Rackspace, Cloudflare</li>
+          <li><strong>Languages, Libraries & Frameworks:</strong> SQL, Java, Kotlin, JavaScript, TypeScript, React, Next.js, Node.js</li>
           <li><strong>Digital Experience Platforms:</strong> Adobe AEM, Acquia/Drupal, Sitecore, Kentico, WordPress</li>
-          <li><strong>CRM & ERP:</strong> Salesforce Sales Cloud (SFDC), Bullhorn, IFS</li>
+          <li><strong>CRM & ERP:</strong> Salesforce (SFDC), Bullhorn, IFS</li>
           <li><strong>SDLC, DevOps & IaC:</strong> Terraform, Terraform Cloud, Docker, Kubernetes, GitHub, GitLab, Azure DevOps, Jira, Grafana k6</li>
           <li><strong>Databases & Tools:</strong> PostgreSQL, SQL Server, Oracle, MongoDB, Liquibase</li>
           <li><strong>Collaboration & Design:</strong> Figma, Miro, Confluence, Notion</li>
