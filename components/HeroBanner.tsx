@@ -2,8 +2,8 @@ import React from "react";
 
 interface HeroBannerProps {
     title: string;
-    shortDesc?: string;
-    longDesc: string;
+    shortDesc?: React.ReactNode;
+    longDesc: React.ReactNode;
   }
 
   const HeroBanner: React.FC<HeroBannerProps> = ({ title, shortDesc, longDesc }) => {
