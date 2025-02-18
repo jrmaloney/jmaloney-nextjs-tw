@@ -38,7 +38,7 @@ const MusicPage = () => {
       <BandcampEmbed
         title="Battuto"
         shortDescription="This is another album I played bass on and again these are a few of my favorite tracks."
-        longDescription="In the artiss own words...'Battuto is a blend of herbs and spices in Italian cooking generally used as a sauce foundation. An Italian mirepoix. This album was a year in the making, and conceptualized by Joe Pleiman and Jay DiBiasio.'"
+        longDescription="In the artist's own words...'Battuto is a blend of herbs and spices in Italian cooking generally used as a sauce foundation. An Italian mirepoix. This album was a year in the making, and conceptualized by Joe Pleiman and Jay DiBiasio.'"
         embeds={[
           "https://bandcamp.com/EmbeddedPlayer/album=1327650065/size=small/bgcol=ffffff/linkcol=0687f5/track=2321117965/transparent=true/",
           "https://bandcamp.com/EmbeddedPlayer/album=1327650065/size=small/bgcol=ffffff/linkcol=0687f5/track=2861806909/transparent=true/"
