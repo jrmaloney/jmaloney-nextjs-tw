@@ -8,7 +8,8 @@ const MusicPage = () => {
     <div className="container mx-auto p-8">
       <HeroBanner 
         title="Play that Funky Music" 
-        longDesc="Actually, I've never been described as being a funky player but I can hold down a decent groove. I mostly play bass but I also do some songwriitng and singing.  There are few examples below from my singer/songwriter attempts."
+        shortDesc="Actually, I've never been described as being a funky player but I can hold down a decent groove. I primarily play bass but I also do some singing, songwriting and play a little guitar.  There are few examples below from my singer/songwriter attempts."
+        longDesc="Most of the examples below are from projects where I play bass but there are few examples from my singer/songwriter attempts. I'v always been lucky to play with musicians that are beyond my ability. You can find a list of credits for all of the other musicians on the individual BandCamp pages below."
       />
 
       <div className="p-8">
