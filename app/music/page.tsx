@@ -10,12 +10,12 @@ const MusicPage = () => {
         title="Play that Funky Music" 
         shortDesc={
           <>
-          Actually, I've never been described as being a funky player but I can hold down a decent groove. I primarily play bass but I also do some singing, songwriting and play a little guitar.
+          Actually, I&apos;ve never been described as being a funky player but I can hold down a decent groove. I primarily play bass but I also do some singing, songwriting and play a little guitar.
           </>
         }
         longDesc={
           <>
-          Most of the examples below are from projects where I play bass but there are few examples from my singer/songwriter attempts. I'v always been lucky to play with musicians that are beyond my ability. You can find a list of credits for all of the other musicians on the individual <a href="https://bandcamp.com/" target="_blank" className="text-blue-500">bandcamp</a> pages below.
+          Most of the examples below are from projects where I play bass but there are few examples from my singer/songwriter attempts. I&apos;ve always been lucky to play with musicians that are beyond my ability. You can find a list of credits for all of the other musicians on the individual <a href="https://bandcamp.com/" target="_blank" className="text-blue-500">bandcamp</a> pages below.
           </>
         }
       />

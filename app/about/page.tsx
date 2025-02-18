@@ -13,7 +13,7 @@ const AboutPage = () => {
         }
         longDesc={
           <>
-            I'm a Boston transplant from Western PA. I grew up about an hour and a half south of Buffalo, NY in the heart of the Snow Belt.
+            I&apos;m a Boston transplant from Western PA. I grew up about an hour and a half south of Buffalo, NY in the heart of the Snow Belt.
           </>
         }
       />
