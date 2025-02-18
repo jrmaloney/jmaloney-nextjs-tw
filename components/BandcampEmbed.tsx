@@ -14,7 +14,8 @@ const BandcampEmbed: React.FC<BandcampEmbedProps> = ({
   embeds,
 }) => {
   return (
-    <div className="py-4 px-8 text-left">
+    <section className=" py-4 px-8 text-left ">
+    <div className="max-w-3xl">
       <h2 className="text-2xl font-bold mb-4">{title}</h2>
       <p className="text-gray-700">{shortDescription}</p>
       {longDescription && <p className="text-gray-600 mt-2">{longDescription}</p>}
@@ -32,6 +33,7 @@ const BandcampEmbed: React.FC<BandcampEmbedProps> = ({
         ))}
       </div>
     </div>
+    </section>
   );
 };
 
