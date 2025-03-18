@@ -8,14 +8,14 @@ const MusicPage = () => {
     <div className="container mx-auto p-8">
       <HeroBanner 
         title="Play that Funky Music" 
-        shortDesc={
+        teaser={
           <>
-          Actually, I&apos;ve never been described as being a funky player but I can hold down a decent groove. I primarily play bass but I also do some singing, songwriting and play a little guitar.
+          I&apos;ve never been described as being a funky player, but I can hold down a decent groove. I primarily play bass but I also sing, write songs, and play a little guitar.
           </>
         }
         longDesc={
           <>
-          Most of the examples below are from projects where I play bass but there are few examples from my singer/songwriter attempts. I&apos;ve always been lucky to play with musicians that are beyond my ability. You can find a list of credits for all of the other musicians on the individual <a href="https://bandcamp.com/" target="_blank" className="text-blue-500">bandcamp</a> pages below.
+          Most of the examples below are from projects where I play bass, but there are also a few examples from my singer/songwriter attempts. I&apos;ve always been lucky to play with musicians that are beyond my ability. You can find a list of credits for all the other musicians on the individual <a href="https://bandcamp.com/" target="_blank" className="text-blue-500">bandcamp</a> pages below.
           </>
         }
       />
