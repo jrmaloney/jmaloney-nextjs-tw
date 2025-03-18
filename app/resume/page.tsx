@@ -70,7 +70,7 @@ const Resume = () => {
             <li>Managed a $2M–$4M annual technical scope for MINI USA.</li>
             <li>Led <strong>MarTech integrations</strong> across BMW enterprise and third-party platforms.</li>
             <li>Orchestrated the <strong>technical roadmap</strong> for MINI’s flagship site, MINIUSA.com.</li>
-            <li>Advocated MINI USA’s technology needs with BMW Corporate IT and vendor partners.</li>
+            <li>Advocated MINI USA’s technology needs with BMW Corporate IT and partners.</li>
             <li>Established an <strong>Agile-based Test & Learn</strong> program to enable rapid A/B and multivariate testing on MINIUSA.com.</li>
           </ul>
 
@@ -91,7 +91,7 @@ const Resume = () => {
           <li>Managed <strong>$2M+ SaaS applications</strong>, boosting <strong>engagement and retention</strong>.</li>
             <li>Led <strong>discovery and definition</strong> phases of enhancement projects, <strong>translating business needs into solutions</strong>.</li>
             <li>Directed technology implementations and client training.</li>
-            <li>Implemented a service management system and workflow that <strong>improved SLA response times</strong>.</li>
+            <li>Implemented a service management system that <strong>improved SLA response times</strong>.</li>
             <li>Developed <strong>automated regression testing</strong>, reducing deployment errors and accelerating release cycles.</li>
           </ul>
         </div>
