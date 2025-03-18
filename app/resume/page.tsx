@@ -34,15 +34,15 @@ const Resume = () => {
           <h3 className="text-xl font-bold">MERGE – Boston, MA</h3>
           <h4 className="text-lg font-semibold">SVP, Group Technology Leader | 04/2023 – 01/2025</h4>
           <ul className="list-disc pl-5">
-            <li><strong>Architectural Review Board (ARB) member,</strong> leading cloud & infrastructure decisions and governance.</li>
-            <li>Oversaw the <strong>management of 30+ hosted sites</strong> across <strong>Rackspace, Azure, and AWS</strong>, ensuring security, scalability, and cost efficiency.</li>
-            <li>Led an initiative to transition all resource provisioning and management to an <strong>Infrastructure as Code (IaC)</strong> model, improving <strong>deployment consistency and scalability</strong>.</li>
-            <li>Architected digital solutions across various verticals and application stacks.</li>
-            <li><strong>Managed and mentored</strong> a 15-member development team, including full-time and freelance engineers.</li>
-            <li>Collaborated with Program Management leaders to continuously enhance our delivery model.</li>
-            <li>Oversaw <strong>resource allocation, budgeting, and project profitability</strong>.</li>
-            <li>Conducted project retrospectives to enhance <strong>development processes and team performance</strong>.</li>
-            <li>Spearheaded new scopes of work within strategic client accounts.</li>
+            <li><strong>Architectural Review Board (ARB) member,</strong> leading cloud & infrastructure decisions and governance</li>
+            <li>Oversaw the <strong>management of 30+ hosted sites</strong> across <strong>Rackspace, Azure, and AWS</strong>, ensuring security, scalability, and cost efficiency</li>
+            <li>Led an initiative to transition all resource provisioning and management to an <strong>Infrastructure as Code (IaC)</strong> model, improving <strong>deployment consistency and scalability</strong></li>
+            <li>Architected digital solutions across various verticals and application stacks</li>
+            <li><strong>Managed and mentored</strong> a 15-member development team, including full-time and freelance engineers</li>
+            <li>Collaborated with program management leaders to continuously enhance our delivery model</li>
+            <li>Oversaw <strong>resource allocation, budgeting, and project profitability</strong></li>
+            <li>Conducted project retrospectives to enhance <strong>development processes and team performance</strong></li>
+            <li>Spearheaded new scopes of work within strategic client accounts</li>
           </ul>
 
           {/* Page Break for Print Version*/}
@@ -51,15 +51,15 @@ const Resume = () => {
           <ul className="list-disc pl-5">
             <li>Led digital development and product ownership for the BVI Medical account:</li>
             <ul className="list-disc pl-10">
-              <li>Secured a <strong>$1M annual recurring engagement</strong> and led the delivery of an <strong>internationalized (i18n), MM+M Award-winning</strong> ophthalmic surgical pack configurator.</li>
-              <li>Developed a custom, off-platform <strong>Salesforce/IFS integrated</strong> cross-selling application.</li>
+              <li>Secured a <strong>$1M annual recurring engagement</strong> and led the delivery of an <strong>internationalized (i18n), MM+M Award-winning</strong> ophthalmic surgical pack configurator</li>
+              <li>Developed a custom, off-platform <strong>Salesforce/IFS integrated</strong> cross-selling application</li>
             </ul>
             <li>Directed the digital transformation team for the MAS Medical Staffing account:</li>
             <ul className="list-disc pl-10">
-              <li>Led business analysis and development of a turnkey credentialing portal, <strong>driving more streamlined recruiting operations.</strong></li>
-              <li>Maintained and optimized legacy shift booking and time tracking systems.</li>
+              <li>Led business analysis and development of a turnkey credentialing portal, <strong>driving more streamlined recruiting operations</strong></li>
+              <li>Maintained and optimized legacy shift booking and time tracking systems</li>
             </ul>
-            <li>Oversaw project estimates, statements of work, and budgets to ensure <strong>on-time, on-budget delivery</strong>.</li>
+            <li>Oversaw project estimates, statements of work, and budgets to ensure <strong>on-time, on-budget delivery</strong></li>
           </ul>
         </div>
 
@@ -67,20 +67,20 @@ const Resume = () => {
           <h3 className="text-xl font-bold">BEAM INTERACTIVE – Boston, MA</h3>
           <h4 className="text-lg font-semibold">Director, Technology and Development | 03/2013 – 04/2017</h4>
           <ul className="list-disc pl-5">
-            <li>Managed a $2M–$4M annual technical scope for MINI USA.</li>
-            <li>Led <strong>MarTech integrations</strong> across BMW enterprise and third-party platforms.</li>
-            <li>Orchestrated the <strong>technical roadmap</strong> for MINI’s flagship site, MINIUSA.com.</li>
-            <li>Advocated MINI USA’s technology needs with BMW Corporate IT and partners.</li>
-            <li>Established an <strong>Agile-based Test & Learn</strong> program to enable rapid A/B and multivariate testing on MINIUSA.com.</li>
+            <li>Managed a $2M–$4M annual technical scope for MINI USA</li>
+            <li>Led <strong>MarTech integrations</strong> across BMW enterprise and third-party platforms</li>
+            <li>Orchestrated the <strong>technical roadmap</strong> for MINI’s flagship site, MINIUSA.com</li>
+            <li>Advocated MINI USA’s technology needs with BMW Corporate IT and partners</li>
+            <li>Established an <strong>Agile-based Test & Learn</strong> program to enable rapid A/B and multivariate testing on MINIUSA.com</li>
           </ul>
 
           <h4 className="text-lg font-semibold mt-4">Senior Software Engineer | 09/2006 – 03/2013</h4>
           <ul className="list-disc pl-5">
-            <li>Co-led the <strong>platform migration</strong> of MINIUSA.com to Adobe AEM.</li>
-            <li>Led development on the first <strong>adaptive design implementation</strong> of MINIUSA.com.</li>
-            <li>Built an OEM and dealership event platform to <strong>drive lead generation</strong>.</li>
-            <li>Developed m.miniusa.com, MINI USA's first mobile-friendly platform.</li>
-            <li>Implemented SOAP-based web services for <strong>lead processing automation</strong>.</li>
+            <li>Co-led the <strong>platform migration</strong> of MINIUSA.com to Adobe AEM</li>
+            <li>Led development on the first <strong>adaptive design implementation</strong> of MINIUSA.com</li>
+            <li>Built an OEM and dealership event platform to <strong>drive lead generation</strong></li>
+            <li>Developed m.miniusa.com, MINI USA's first mobile-friendly platform</li>
+            <li>Implemented SOAP-based web services for <strong>lead processing automation</strong></li>
           </ul>
         </div>
 
@@ -88,11 +88,11 @@ const Resume = () => {
           <h3 className="text-xl font-bold">EVENTMONITOR – Boston, MA</h3>
           <h4 className="text-lg font-semibold">Director of Client Services | 07/2004 – 06/2006</h4>
           <ul className="list-disc pl-5">
-          <li>Managed <strong>$2M+ SaaS applications</strong>, boosting <strong>engagement and retention</strong>.</li>
-            <li>Led <strong>discovery and definition</strong> phases of enhancement projects, <strong>translating business needs into solutions</strong>.</li>
-            <li>Directed technology implementations and client training.</li>
-            <li>Implemented a service management system that <strong>improved SLA response times</strong>.</li>
-            <li>Developed <strong>automated regression testing</strong>, reducing deployment errors and accelerating release cycles.</li>
+          <li>Managed <strong>$2M+ SaaS applications</strong>, boosting <strong>engagement and retention</strong></li>
+            <li>Led <strong>discovery and definition</strong> phases of enhancement projects, <strong>translating business needs into solutions</strong></li>
+            <li>Directed technology implementations and client training</li>
+            <li>Implemented a service management system that <strong>improved SLA response times</strong></li>
+            <li>Developed <strong>automated regression testing</strong>, reducing deployment errors and accelerating release cycles</li>
           </ul>
         </div>
 
@@ -102,9 +102,9 @@ const Resume = () => {
           <h3 className="text-xl font-bold">EZE CASTLE SOFTWARE – Boston, MA</h3>
           <h4 className="text-lg font-semibold">Software Engineer – Team Lead | 04/2000 – 06/2004</h4>
           <ul className="list-disc pl-5">
-            <li>Contributed to the design and development of the core object model for the company's ASP-based trade order management system.</li>
-            <li>Built FX trading and exposure monitoring solutions.</li>
-            <li>Developed a bond calculation library based on SIA standards.</li>
+            <li>Contributed to the design and development of the core object model for the company's ASP-based trade order management system</li>
+            <li>Built FX trading and exposure monitoring solutions</li>
+            <li>Developed a bond calculation library based on SIA standards</li>
           </ul>
         </div>
         {/*
@@ -139,7 +139,7 @@ const Resume = () => {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Industry Experience</h2>
         <ul className="list-disc pl-5">
-          <li><strong>Healthcare:</strong> UM Health-Sparrow, BCBS FEP, Coverys Insurance., BVI Medical, MAS Medical Staffing</li>
+          <li><strong>Healthcare:</strong> UM Health-Sparrow, BCBS FEP, Coverys Insurance, BVI Medical, MAS Medical Staffing</li>
           <li><strong>Consumer:</strong> MINI USA, Aruba Tourism Assoc., Land O’ Frost</li>
           <li><strong>Finance:</strong> Nationwide, Transamerica, AMG, Wellington Management, MINI FS</li>
           <li><strong>Life Sciences:</strong> UCB, Supernus, CSL Seqirus</li>
