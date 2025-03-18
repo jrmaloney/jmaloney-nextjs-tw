@@ -42,7 +42,7 @@ const MusicPage = () => {
       <ContentSection
         title="The Rotary Prophets"
         shortDescription="This was my first and only attempt at being a singer/songwriter, more of a cathartic endeavor than anything else. All of these songs are about a decade old."
-        longDescription="The band was born out of a mashup of other bands I was playing in at the time. We found outselves without a primary songwriter so I tried my hand at that role."
+        longDescription="The band was born out of a mashup of other bands I was playing in at the time. We found ourselves without a primary songwriter so I tried my hand at that role."
       />
       <BandcampEmbed
         embeds={[
