@@ -69,7 +69,7 @@ const Resume = () => {
           <ul className="list-disc pl-5">
             <li>Managed a $2M–$4M annual technical scope for MINI USA</li>
             <li>Led <strong>MarTech integrations</strong> across BMW enterprise and third-party platforms</li>
-            <li>Orchestrated the <strong>technical roadmap</strong> for MINI’s flagship site, MINIUSA.com</li>
+            <li>Orchestrated the <strong>technical roadmap</strong> for MINI&apos;s flagship site, MINIUSA.com</li>
             <li>Advocated MINI USA’s technology needs with BMW Corporate IT and partners</li>
             <li>Established an <strong>Agile-based Test & Learn</strong> program to enable rapid A/B and multivariate testing on MINIUSA.com</li>
           </ul>
@@ -79,7 +79,7 @@ const Resume = () => {
             <li>Co-led the <strong>platform migration</strong> of MINIUSA.com to Adobe AEM</li>
             <li>Led development on the first <strong>adaptive design implementation</strong> of MINIUSA.com</li>
             <li>Built an OEM and dealership event platform to <strong>drive lead generation</strong></li>
-            <li>Developed m.miniusa.com, MINI USA's first mobile-friendly platform</li>
+            <li>Developed m.miniusa.com, MINI USA&apos;s first mobile-friendly platform</li>
             <li>Implemented SOAP-based web services for <strong>lead processing automation</strong></li>
           </ul>
         </div>
@@ -102,7 +102,7 @@ const Resume = () => {
           <h3 className="text-xl font-bold">EZE CASTLE SOFTWARE – Boston, MA</h3>
           <h4 className="text-lg font-semibold">Software Engineer – Team Lead | 04/2000 – 06/2004</h4>
           <ul className="list-disc pl-5">
-            <li>Contributed to the design and development of the core object model for the company's ASP-based trade order management system</li>
+            <li>Contributed to the design and development of the core object model for the company&apos;s ASP-based trade order management system</li>
             <li>Built FX trading and exposure monitoring solutions</li>
             <li>Developed a bond calculation library based on SIA standards</li>
           </ul>
