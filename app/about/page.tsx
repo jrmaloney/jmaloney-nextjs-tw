@@ -6,14 +6,14 @@ const AboutPage = () => {
     <div className="container mx-auto p-8">
       <HeroBanner 
         title="A Little About Me" 
-        shortDesc={
+        teaser={
           <>
-            I live in Weymouth, MA with my amazing wife, Abby and her surly cat Big Lady.
+            I live in Weymouth, MA, with my amazing wife, Abby, and her surly cat, Big Lady.
           </>
         }
         longDesc={
           <>
-            I&apos;m a Boston transplant from Western PA. I grew up about an hour and a half south of Buffalo, NY in the heart of the Snow Belt.
+            I&apos;m a Boston transplant from Western PA. I grew up about an hour and a half south of Buffalo, NY, in the heart of the Snow Belt.
           </>
         }
       />

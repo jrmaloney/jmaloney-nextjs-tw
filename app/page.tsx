@@ -7,8 +7,9 @@ const HomePage = () => {
     <div className="container mx-auto p-8">
       <HeroBanner 
         title="Welcome to My Personal Website" 
-        shortDesc={
-          <>I&apos;m an enterprise architect, software developer, and part time musician from the Boston area. 
+
+        teaser={
+          <>I&apos;m an enterprise architect, builder of digital solutions, and part time musician from the Boston area. 
         </>
         }
         longDesc={

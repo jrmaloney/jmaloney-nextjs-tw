@@ -33,8 +33,8 @@ const Navbar: React.FC = () => {
               <Link href="/about" onClick={handleLinkClick}>
                 <span className="block px-4 py-2 hover:bg-gray-300">About</span>
               </Link>
-              <Link href="/code" onClick={handleLinkClick}>
-                <span className="block px-4 py-2 hover:bg-gray-300">Code</span>
+              <Link href="/tech" onClick={handleLinkClick}>
+                <span className="block px-4 py-2 hover:bg-gray-300">Tech</span>
               </Link>
               <Link href="/music" onClick={handleLinkClick}>
                 <span className="block px-4 py-2 hover:bg-gray-300">Music</span>
@@ -49,8 +49,8 @@ const Navbar: React.FC = () => {
           <Link href="/about">
             <span className="hover:underline">About</span>
           </Link>
-          <Link href="/code">
-            <span className="hover:underline">Code</span>
+          <Link href="/tech">
+            <span className="hover:underline">Tech</span>
           </Link>
           <Link href="/music">
             <span className="hover:underline">Music</span>
