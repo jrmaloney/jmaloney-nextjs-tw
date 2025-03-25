@@ -12,7 +12,7 @@ const Resume = () => {
 
       <h1 className="text-4xl font-bold mb-4 text-center">John R. Maloney</h1>
       <p className="text-lg mb-2 text-center" >
-        <strong>Weymouth, MA</strong> | <a href="mailto:john@jmaloney.net" target="_blank" className="text-blue-500">jrmaloney@gmail.com</a> | <strong>617.694.9413</strong> | <a href="https://www.linkedin.com/in/john-r-maloney" target="_blank" className="text-blue-500">LinkedIn</a>
+        <strong>Weymouth, MA</strong> | <a href="mailto:jrmaloney@gmail.com" target="_blank" className="text-blue-500">jrmaloney@gmail.com</a> | <strong>617.694.9413</strong> | <a href="https://www.linkedin.com/in/john-r-maloney" target="_blank" className="text-blue-500">LinkedIn</a>
       </p>
       {/**
       <p className="text-lg mb-2 text-center" >
