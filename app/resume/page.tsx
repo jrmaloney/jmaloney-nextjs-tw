@@ -161,7 +161,7 @@ const Resume = () => {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Awards & Recognitions</h2>
         <ul className="list-disc pl-5">
-          <li><strong>MM+M Award – Gold, Professional Sales Tool (2020),</strong> <a href="https://www.mmm-online.com/mmm-awards/gold-professional-sales-tool-2020/" target="_blank" className="text-blue-500">BVI Medical Customeyes Configurator</a></li>
+          <li><strong>MM+M Award – Gold, Professional Sales Tool (2020),</strong> <a href="https://www.mmm-online.com/mmm-awards/gold-professional-sales-tool-2020/" target="_blank" className="text-blue-500">BVI Medical CustomEyes Configurator</a></li>
         </ul>
       </section>
 </div>
