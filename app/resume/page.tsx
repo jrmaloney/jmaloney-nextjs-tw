@@ -12,13 +12,8 @@ const Resume = () => {
 
       <h1 className="text-4xl font-bold mb-4 text-center">John R. Maloney</h1>
       <p className="text-lg mb-2 text-center" >
-        <strong>Weymouth, MA</strong> | <a href="mailto:john@jmaloney.net" target="_blank" className="text-blue-500">jrmaloney@gmail.com</a> | <strong>617.694.9413</strong> | <a href="https://www.linkedin.com/in/john-r-maloney" target="_blank" className="text-blue-500">LinkedIn</a>
+        <strong>Weymouth, MA</strong> | <a href="mailto:jrmaloney@gmail.com" target="_blank" className="text-blue-500">jrmaloney@gmail.com</a> | <strong>617.694.9413</strong> | <a href="https://www.linkedin.com/in/john-r-maloney" target="_blank" className="text-blue-500">LinkedIn</a>
       </p>
-      {/**
-      <p className="text-lg mb-2 text-center" >
-        <a href="https://www.linkedin.com/in/john-r-maloney" target="_blank" className="text-blue-500">LinkedIn</a> | <a href="https://jmaloney.net" target="_blank" className="text-blue-500">Website</a> | <a href="https://github.com/jrmaloney" target="_blank" className="text-blue-500">GitHub</a>
-      </p>
-      */}
       <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
       
       <section className="mb-6">
@@ -161,7 +156,7 @@ const Resume = () => {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Awards & Recognitions</h2>
         <ul className="list-disc pl-5">
-          <li><strong>MM+M Award – Gold, Professional Sales Tool (2020),</strong> <a href="https://www.mmm-online.com/mmm-awards/gold-professional-sales-tool-2020/" target="_blank" className="text-blue-500">BVI Medical Customeyes Configurator</a></li>
+          <li><strong>MM+M Award – Gold, Professional Sales Tool (2020),</strong> <a href="https://www.mmm-online.com/mmm-awards/gold-professional-sales-tool-2020/" target="_blank" className="text-blue-500">BVI Medical CustomEyes Configurator</a></li>
         </ul>
       </section>
 </div>
