@@ -1,0 +1,25 @@
+# GPTBot
+User-agent: GPTBot
+Disallow: /
+
+# Google-Extended
+User-agent: Google-Extended
+Disallow: /
+
+# Claude-Web
+User-agent: Claude-Web
+Disallow: /
+
+# CCBot
+User-agent: CCBot
+Disallow: /
+
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://jmaloney.net
+
+# Sitemaps
+Sitemap: https://jmaloney.net/sitemap.xml
