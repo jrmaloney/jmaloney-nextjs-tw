@@ -33,8 +33,9 @@ const Resume = () => {
           <ul className="list-disc pl-5">
             <li><strong>Architectural Review Board (ARB) member,</strong> leading cloud and infrastructure decisions and governance</li>
             <li>Oversaw the <strong>management of 30+ hosted sites</strong> across <strong>Rackspace, Azure, and AWS</strong>, ensuring security, scalability, and cost efficiency</li>
-            <li>Led an initiative to transition all resource provisioning and management to an <strong>Infrastructure as Code (IaC)</strong> model, improving deployment consistency and scalability</li>
+            <li>Led <strong>Infrastructure as Code (IaC)</strong> adoption using Terraform Cloud and Azure Resource Manager (ARM) Templates, enhancing deployment consistency, scalability, and operational efficiency</li>
             <li>Architected digital solutions across various verticals and application stacks</li>
+            <li>Architected a learning site and Registered Index-Linked Annuity (RILA) calculator for the Nationwide Defender Annuity product, enhancing client education and decision-making </li>
             <li><strong>Managed and mentored a 15-member development team</strong>, including full-time and freelance engineers</li>
             <li>Collaborated with program management leaders to continuously enhance our delivery model</li>
             <li>Oversaw resource allocation, budgeting, and project profitability</li>
@@ -49,7 +50,7 @@ const Resume = () => {
             <li>Led digital development and product ownership for the BVI Medical account:</li>
             <ul className="list-disc pl-10">
               <li><strong>Secured a $1M annual recurring engagement</strong> and led the delivery of an internationalized (i18n), MM+M Award-winning ophthalmic surgical pack configurator</li>
-              <li>Developed a custom, off-platform <strong>Salesforce/IFS integrated</strong> cross-selling application</li>
+              <li>Developed a custom, off-platform <strong>Salesforce integrated</strong> cross-selling application</li>
             </ul>
             <li>Directed the digital transformation team for the MAS Medical Staffing account:</li>
             <ul className="list-disc pl-10">
@@ -124,11 +125,10 @@ const Resume = () => {
         <ul className="list-disc pl-5">
           <li><strong>Cloud & Infrastructure:</strong> Azure, AWS, Rackspace, Cloudflare</li>
           <li><strong>Languages, Libraries & Frameworks:</strong> SQL, Java, Kotlin, JavaScript, TypeScript, React, Next.js, Node.js</li>
-          <li><strong>Digital Experience Platforms:</strong> Adobe AEM, Acquia/Drupal, Sitecore, Kentico, WordPress, Yext</li>
-          <li><strong>CRM & ERP:</strong> Salesforce (SFDC), Bullhorn, IFS</li>
-          <li><strong>SDLC, DevOps & IaC:</strong> Terraform, Terraform Cloud, Docker, Kubernetes, GitHub, GitLab, Azure DevOps, Jira, Grafana k6</li>
-          <li><strong>Databases & Tools:</strong> PostgreSQL, SQL Server, Oracle, MongoDB, Liquibase</li>
-          <li><strong>Collaboration & Design:</strong> Figma, Miro, Confluence, Notion</li>
+          <li><strong>DXP & CRM:</strong> Adobe AEM, Acquia/Drupal, Kentico, Salesforce (SFDC), Bullhorn, WordPress, Yext</li>
+          <li><strong>DevOps & IaC:</strong> Terraform, Terraform Cloud, Docker, Kubernetes, GitHub, GitLab, Azure DevOps, Grafana k6</li>
+          <li><strong>Databases & Tools:</strong> PostgreSQL, Azure SQL DB, Oracle, MongoDB, Liquibase</li>
+          <li><strong>Agile & Design:</strong> Jira, Confluence, Figma, Miro, Notion</li>
         </ul>
       </section>
       <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
