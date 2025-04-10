@@ -19,8 +19,15 @@ const Resume = () => {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Summary</h2>
         <p>
+        Strategic technology leader with 20+ years of experience architecting and delivering complex digital solutions. Proven success in leading cross-functional engineering teams and driving technical architecture, cloud strategy, and program execution from inception through delivery. Skilled at aligning business goals with technology roadmaps, managing complex stakeholder ecosystems, and optimizing Agile delivery models. Adept at bridging the gap between engineering depth and program-level governance to deliver secure, scalable, and cost-efficient outcomes. Experienced in
+navigating regulatory and compliance reviews in both the pharmaceutical and
+financial industries, including FINRA oversight. Early career experience in financial, compliance, and regulatory auditing provides a strong foundation in risk management and corporate governance.
+        </p>
+        {/*
+        <p>
           Experienced digital development leader and <strong>enterprise architect</strong> with a proven track record of crafting award-winning digital experiences. <strong>Proficient in Agile methodologies</strong> and skilled at fostering cross-functional collaboration among business, product, and development teams. Adept at translating strategic business needs into integrated digital solutions that align with core enterprise technologies, driving initiatives across sales, marketing, and operations functions. Experienced in navigating regulatory and compliance reviews in both the pharmaceutical and financial industries, including <strong>FINRA</strong> oversight. Early career experience in financial, compliance, and regulatory auditing provides a <strong>strong foundation in risk management and corporate governance</strong>.        
         </p>
+        */}
       </section>
       <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-3"></div>
 
@@ -36,7 +43,8 @@ const Resume = () => {
             <li>Led <strong>Infrastructure as Code (IaC)</strong> adoption using Terraform Cloud and ARM Templates, enhancing deployment consistency and operational efficiency</li>
             <li><strong>Managed and mentored a 15-member development team</strong>, including full-time and freelance engineers</li>
             <li>Architected an educational site and RILA calculator for the Nationwide Defender Annuity&reg; product, enhancing client education and decision-making &mdash; <strong>Tech stack: Azure (SQL, AKS, SWA), Spring Boot, Kotlin, Next.js, TypeScript</strong></li>
-            <li>Collaborated with program management leaders to continuously enhance our delivery model</li>
+            <li>Partnered with PMO leadership to optimize Agile delivery models and establish KPIs for program performance across strategic accounts</li>
+            <li>Led multi-team delivery programs spanning infrastructure, application, and client stakeholder groups</li>
             <li>Spearheaded new scopes of work within strategic client accounts</li>
           </ul>
 
