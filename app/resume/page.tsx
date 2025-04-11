@@ -14,15 +14,22 @@ const Resume = () => {
       <p className="text-lg mb-2 text-center" >
         <strong>Weymouth, MA</strong> | <a href="mailto:jrmaloney@gmail.com" target="_blank" className="text-blue-500">jrmaloney@gmail.com</a> | <strong>617.694.9413</strong> | <a href="https://www.linkedin.com/in/john-r-maloney" target="_blank" className="text-blue-500">LinkedIn</a>
       </p>
-      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
+      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-3"></div>
       
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Summary</h2>
         <p>
-          Experienced digital development leader and <strong>enterprise architect</strong> with a proven track record of crafting award-winning digital experiences. <strong>Proficient in Agile methodologies</strong> and skilled at fostering cross-functional collaboration among business, product, and development teams. Adept at translating strategic business needs into integrated digital solutions that align with core enterprise technologies, driving initiatives across sales, marketing, and operations. Early career experience in financial, compliance, and regulatory auditing provides a <strong>strong foundation in risk management and corporate governance</strong>.        
+        Strategic technology leader with 20+ years of experience architecting and delivering complex digital solutions. Proven success in leading cross-functional engineering teams and driving technical architecture, cloud strategy, and program execution from inception through delivery. Skilled at aligning business goals with technology roadmaps, managing complex stakeholder ecosystems, and optimizing Agile delivery models. Adept at bridging the gap between engineering depth and program-level governance to deliver secure, scalable, and cost-efficient outcomes. Experienced in
+navigating regulatory and compliance reviews in both the pharmaceutical and
+financial industries, including FINRA oversight. Early career experience in financial, compliance, and regulatory auditing provides a strong foundation in risk management and corporate governance.
         </p>
+        {/*
+        <p>
+          Experienced digital development leader and <strong>enterprise architect</strong> with a proven track record of crafting award-winning digital experiences. <strong>Proficient in Agile methodologies</strong> and skilled at fostering cross-functional collaboration among business, product, and development teams. Adept at translating strategic business needs into integrated digital solutions that align with core enterprise technologies, driving initiatives across sales, marketing, and operations functions. Experienced in navigating regulatory and compliance reviews in both the pharmaceutical and financial industries, including <strong>FINRA</strong> oversight. Early career experience in financial, compliance, and regulatory auditing provides a <strong>strong foundation in risk management and corporate governance</strong>.        
+        </p>
+        */}
       </section>
-      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
+      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-3"></div>
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Professional Experience</h2>
@@ -31,14 +38,13 @@ const Resume = () => {
           <h3 className="text-xl font-bold">MERGE – Boston, MA</h3>
           <h4 className="text-lg font-semibold">SVP, Group Technology Leader | 04/2023 – 01/2025</h4>
           <ul className="list-disc pl-5">
-            <li><strong>Architectural Review Board (ARB) member,</strong> leading cloud and infrastructure decisions and governance</li>
+            <li>Served as an <strong>Architectural Review Board (ARB) member,</strong> guiding cloud and infrastructure strategy and governance in alignment with TOGAF domains</li>
             <li>Oversaw the <strong>management of 30+ hosted sites</strong> across <strong>Rackspace, Azure, and AWS</strong>, ensuring security, scalability, and cost efficiency</li>
-            <li>Led an initiative to transition all resource provisioning and management to an <strong>Infrastructure as Code (IaC)</strong> model, improving deployment consistency and scalability</li>
-            <li>Architected digital solutions across various verticals and application stacks</li>
+            <li>Led <strong>Infrastructure as Code (IaC)</strong> adoption using Terraform Cloud and ARM Templates, enhancing deployment consistency and operational efficiency</li>
             <li><strong>Managed and mentored a 15-member development team</strong>, including full-time and freelance engineers</li>
-            <li>Collaborated with program management leaders to continuously enhance our delivery model</li>
-            <li>Oversaw resource allocation, budgeting, and project profitability</li>
-            <li>Conducted project retrospectives to enhance SDLC processes and team performance</li>
+            <li>Architected an educational site and RILA calculator for the Nationwide Defender Annuity&reg; product, enhancing client education and decision-making &mdash; <strong>Tech stack: Azure (SQL, AKS, SWA), Spring Boot, Kotlin, Next.js, TypeScript</strong></li>
+            <li>Partnered with PMO leadership to optimize Agile delivery models and establish KPIs for program performance across strategic accounts</li>
+            <li>Led multi-team delivery programs spanning infrastructure, application, and client stakeholder groups</li>
             <li>Spearheaded new scopes of work within strategic client accounts</li>
           </ul>
 
@@ -48,15 +54,16 @@ const Resume = () => {
           <ul className="list-disc pl-5">
             <li>Led digital development and product ownership for the BVI Medical account:</li>
             <ul className="list-disc pl-10">
-              <li><strong>Secured a $1M annual recurring engagement</strong> and led the delivery of an internationalized (i18n), MM+M Award-winning ophthalmic surgical pack configurator</li>
-              <li>Developed a custom, off-platform <strong>Salesforce/IFS integrated</strong> cross-selling application</li>
+              <li><strong>Secured a $1M annual recurring engagement</strong> and led the delivery of an internationalized (i18n), MM+M Award-winning ophthalmic surgical pack configurator &mdash; <strong>Tech stack: Azure (SQL, AKS), Spring Boot, Kotlin, React/Redux</strong></li>
+              <li>Developed a custom, off-platform <strong>Salesforce-integrated</strong> CPQ application</li>
             </ul>
             <li>Directed the digital transformation team for the MAS Medical Staffing account:</li>
             <ul className="list-disc pl-10">
-              <li>Led business analysis and development of a turnkey credentialing portal, driving more streamlined recruiting operations</li>
+              <li>Led business analysis and development of a turnkey, Bullhorn integrated, credentialing portal, driving more streamlined recruiting operations &mdash; <strong>Tech stack: AWS (RDS, EKS), Kotlin, Next.js, TypeScript</strong></li>
               <li>Maintained and optimized legacy shift booking and time tracking systems</li>
             </ul>
-            <li>Oversaw project estimates, statements of work, and budgets to ensure on-time, on-budget delivery</li>
+            <li>Oversaw resource planning, estimates, SOWs, and budgets to drive project profitability and ensure on-time, on-budget delivery</li>
+            <li>Conducted project retrospectives to enhance SDLC processes and performance</li>
           </ul>
         </div>
 
@@ -64,11 +71,11 @@ const Resume = () => {
           <h3 className="text-xl font-bold">BEAM INTERACTIVE – Boston, MA</h3>
           <h4 className="text-lg font-semibold">Director, Technology and Development | 03/2013 – 04/2017</h4>
           <ul className="list-disc pl-5">
-            <li><strong>Managed a $2M–$4M annual technical scope of work</strong> for MINI USA</li>
+            <li><strong>Managed a $2M–$4M annual technical scope of work</strong> for MINI USA &mdash; <strong>Tech stack: AEM Sites, GlassFish, Java, Oracle</strong></li>
             <li>Led MarTech integrations across BMW enterprise and third-party platforms</li>
             <li>Orchestrated the technical roadmap for MINI&apos;s flagship site, MINIUSA.com</li>
             <li>Advocated MINI USA’s technology needs with BMW Corporate IT and partners</li>
-            <li>Established an Agile-based Test & Learn program to enable rapid A/B and multivariate testing on MINIUSA.com</li>
+            <li>Established an Agile-based test-and-learn program to enable rapid A/B and multivariate testing on MINIUSA.com</li>
           </ul>
 
           <h4 className="text-lg font-semibold mt-4">Senior Software Engineer | 09/2006 – 03/2013</h4>
@@ -85,11 +92,10 @@ const Resume = () => {
           <h3 className="text-xl font-bold">EVENTMONITOR – Boston, MA</h3>
           <h4 className="text-lg font-semibold">Director of Client Services | 07/2004 – 06/2006</h4>
           <ul className="list-disc pl-5">
-          <li>Managed $2M+ SaaS applications, boosting engagement and retention</li>
-            <li>Led discovery and definition phases of enhancement projects, translating business needs into solutions</li>
+          <li>Managed proprietary SaaS applications generating over $2M in annual revenue, boosting client engagement and retention</li>
+            <li>Led discovery and definition phases of enhancement projects</li>
             <li>Directed technology implementations and client training</li>
             <li>Implemented a service management system that improved SLA response times</li>
-            <li>Developed automated regression testing, reducing deployment errors and accelerating release cycles</li>
           </ul>
         </div>
 
@@ -116,47 +122,46 @@ const Resume = () => {
         </div>
         */}
       </section>
-      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
+      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-3"></div>
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Technical Skills & Tools</h2>
         <p className="pb-2">A mix of <strong>hands-on experience</strong> and <strong>leadership</strong> in the following technologies:</p>
         <ul className="list-disc pl-5">
-          <li><strong>Cloud & Infrastructure:</strong> Azure, AWS, Rackspace, Cloudflare</li>
-          <li><strong>Languages, Libraries & Frameworks:</strong> SQL, Java, Kotlin, JavaScript, TypeScript, React, Next.js, Node.js</li>
-          <li><strong>Digital Experience Platforms:</strong> Adobe AEM, Acquia/Drupal, Sitecore, Kentico, WordPress, Yext</li>
-          <li><strong>CRM & ERP:</strong> Salesforce (SFDC), Bullhorn, IFS</li>
-          <li><strong>SDLC, DevOps & IaC:</strong> Terraform, Terraform Cloud, Docker, Kubernetes, GitHub, GitLab, Azure DevOps, Jira, Grafana k6</li>
-          <li><strong>Databases & Tools:</strong> PostgreSQL, SQL Server, Oracle, MongoDB, Liquibase</li>
-          <li><strong>Collaboration & Design:</strong> Figma, Miro, Confluence, Notion</li>
+          <li><strong>Cloud & Infrastructure:</strong> Azure, AWS, Rackspace, Cloudflare, Vercel</li>
+          <li><strong>Languages, Libraries & Frameworks:</strong> SQL, Java, Kotlin, JavaScript, TypeScript, Spring Boot, React, Next.js, Node.js</li>
+          <li><strong>DXP & CRM:</strong> Adobe AEM, Acquia/Drupal, Sitecore, Kentico, Salesforce (SFDC), Bullhorn, WordPress, Yext</li>
+          <li><strong>DevOps & IaC:</strong> Terraform, Terraform Cloud, Docker, Kubernetes, GitHub, GitLab, Azure DevOps</li>
+          <li><strong>Monitor & Observability:</strong> New Relic, Azure Monitor, Grafana k6</li>
+          <li><strong>Databases & Tools:</strong> PostgreSQL, Azure SQL DB, Oracle, MongoDB, Liquibase</li>
+          <li><strong>Agile & Design:</strong> Jira, Confluence, Figma, Miro, Notion</li>
         </ul>
       </section>
-      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
+      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-3"></div>
 
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-2">Industry Experience</h2>
+        <h2 className="text-2xl font-semibold mb-2">Vertical Experience</h2>
         <ul className="list-disc pl-5">
-          <li><strong>Healthcare:</strong> UM Health-Sparrow, BCBS FEP, Coverys Insurance, BVI Medical, MAS Medical Staffing</li>
-          <li><strong>Consumer:</strong> MINI USA, Aruba Tourism Assoc., Land O’ Frost</li>
-          <li><strong>Finance:</strong> Nationwide, Transamerica, AMG, Wellington Management, MINI FS</li>
-          <li><strong>Life Sciences:</strong> UCB, Supernus, CSL Seqirus</li>
+          <li><strong>Healthcare:</strong> UM Health-Sparrow, BCBS FEP, Coverys Insurance, MAS Medical Staffing</li>
+          <li><strong>Consumer Brands:</strong> MINI USA, Aruba Tourism Assoc., Land O’ Frost</li>
+          <li><strong>Finance:</strong> Nationwide Insurance, Transamerica, AMG, Wellington Management, MINI Financial Services</li>
+          <li><strong>Life Sciences:</strong> BVI Medical, UCB, Supernus, CSL Seqirus</li>
         </ul>
       </section>
-      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
+      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-3"></div>
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Education</h2>
         <div className="flex justify-between">
-        <p><strong>BSBA with Honors in Accounting</strong></p>
-        <p>Slippery Rock University</p>
+        <p>BSBA, Accounting (Honors) &mdash; Slippery Rock University</p>
         </div>
       </section>
-      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-4"></div>
+      <div className="border-b border-gray-400 w-4/5 mx-auto py-1 mb-3"></div>
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Awards & Recognitions</h2>
         <ul className="list-disc pl-5">
-          <li><strong>MM+M Award – Gold, Professional Sales Tool (2020),</strong> <a href="https://www.mmm-online.com/mmm-awards/gold-professional-sales-tool-2020/" target="_blank" className="text-blue-500">BVI Medical CustomEyes Configurator</a></li>
+          <li>MM+M &mdash; Gold, Professional Sales Tool, <a href="https://www.mmm-online.com/mmm-awards/gold-professional-sales-tool-2020/" target="_blank" className="text-blue-500">BVI Medical &mdash; CustomEyes Configurator</a></li>
         </ul>
       </section>
 </div>
