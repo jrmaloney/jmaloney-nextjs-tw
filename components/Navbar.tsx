@@ -11,8 +11,8 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-[#d2cebc] text-[#3b3b3b] p-4 w-full">
-      <div className="container mx-auto px-4 flex justify-between items-center relative">
+    <nav className="bg-surface-muted text-ink p-4 w-full">
+      <div className="site-container flex justify-between items-center relative">
         <div className="text-2xl font-bold">
           <Link href="/" className="hover:underline">
             John R. Maloney
@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
             &#9776;
           </button>
           {isOpen && (
-            <div className="absolute right-4 mt-2 w-40 bg-[#d2cebc] text-[#3b3b3b] rounded-md shadow-lg z-10">
+            <div className="absolute right-4 mt-2 w-40 bg-surface-muted text-ink rounded-md shadow-lg z-10">
               <Link href="/about" onClick={handleLinkClick}>
                 <span className="block px-4 py-2 hover:bg-gray-300">About</span>
               </Link>
@@ -38,9 +38,6 @@ const Navbar: React.FC = () => {
               </Link>
               <Link href="/music" onClick={handleLinkClick}>
                 <span className="block px-4 py-2 hover:bg-gray-300">Music</span>
-              </Link>
-              <Link href="/resume" onClick={handleLinkClick}>
-                <span className="block px-4 py-2 hover:bg-gray-300">Resume</span>
               </Link>
             </div>
           )}
@@ -54,9 +51,6 @@ const Navbar: React.FC = () => {
           </Link>
           <Link href="/music">
             <span className="hover:underline">Music</span>
-          </Link>
-          <Link href="/resume">
-            <span className="hover:underline">Resume</span>
           </Link>
         </div>
       </div>

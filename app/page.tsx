@@ -4,7 +4,7 @@ import HeroBanner from '@/components/HeroBanner';
 const HomePage = () => {
 
   return (
-    <div className="container mx-auto p-8">
+    <div className="page-container">
       <HeroBanner 
         title="Welcome to My Personal Website" 
 

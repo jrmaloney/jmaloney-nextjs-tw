@@ -5,7 +5,7 @@ import ContentSection from '@/components/ContentSection';
 
 const MusicPage = () => {
   return (
-    <div className="container mx-auto p-8">
+    <div className="page-container">
       <HeroBanner 
         title="Play that Funky Music" 
         teaser={

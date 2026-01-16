@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+@theme {
+  --color-surface: #e8e6da;
+  --color-surface-muted: #d2cebc;
+  --color-surface-muted-hover: #bfb8a4;
+  --color-ink: #3b3b3b;
+}
+
+@layer components {
+  .page-container {
+    @apply container mx-auto p-8;
+  }
+
+  .site-container {
+    @apply container mx-auto px-4;
+  }
+
+  .btn-muted {
+    @apply mt-4 px-4 py-2 bg-surface-muted text-ink font-bold rounded hover:bg-surface-muted-hover hover:text-black cursor-pointer transition duration-300;
+  }
+}
+
 @media print {
   body {
     font-family: "Roboto", serif; /* Adjust font family as needed */

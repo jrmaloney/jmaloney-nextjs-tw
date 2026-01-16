@@ -20,8 +20,7 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({ buttonLabel, href, down
   return (
     <button
       onClick={handleDownload}
-      className="mt-4 px-4 py-2 bg-[#d2cebc] text-[#3b3b3b] font-bold rounded no-print 
-                 hover:bg-[#bfb8a4] hover:text-black cursor-pointer transition duration-300"
+      className="btn-muted no-print"
     >
         {buttonLabel} 
     </button>
